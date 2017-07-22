@@ -5,19 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <Button
-        android:id="@+id/btnSatellite"
-        android:text="衛星写真"
-        android:onClick="btnSatellite_onClick"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/btnNormal"
-        android:text="標準地図"
-        android:onClick="btnNormal_onClick"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
